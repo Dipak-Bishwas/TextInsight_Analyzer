@@ -1,0 +1,74 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# -----------------------
+# Virtual Environment
+# -----------------------
+.venv/
+venv/
+env/
+
+# -----------------------
+# Jupyter / Notebooks
+# -----------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# -----------------------
+# Environment Variables
+# -----------------------
+.env
+
+# -----------------------
+# Streamlit
+# -----------------------
+.streamlit/secrets.toml
+
+# -----------------------
+# OS / Editor
+# -----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+
+# -----------------------
+# NLP / ML Cache (VERY IMPORTANT)
+# -----------------------
+.cache/
+huggingface/
+transformers/
+torch/
+models/
+spacy_downloads/
+
+# -----------------------
+# Data Files (keep repo small)
+# -----------------------
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# -----------------------
+# Build / Dist
+# -----------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------
+# Temporary files
+# -----------------------
+tmp/
+temp/
